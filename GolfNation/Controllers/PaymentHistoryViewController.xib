@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PaymentHistoryViewController">
+            <connections>
+                <outlet property="btnLocal" destination="iwt-Mb-nfT" id="Mfv-UF-Qno"/>
+                <outlet property="btnSeeAll" destination="zib-Bd-IwW" id="837-0D-RxB"/>
+                <outlet property="tableView" destination="Le7-qG-B3I" id="Iac-ae-Kaj"/>
+                <outlet property="view" destination="cPR-gW-ou9" id="Ziw-2a-UYp"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="cPR-gW-ou9">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order History" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qdR-Cg-NHs">
+                    <rect key="frame" x="67" y="80" width="193" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="193" id="Pok-NV-IVu"/>
+                        <constraint firstAttribute="height" constant="21" id="XSB-Df-hz1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="22"/>
+                    <color key="textColor" red="0.13725490200000001" green="0.80000000000000004" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Le7-qG-B3I">
+                    <rect key="frame" x="0.0" y="121" width="326" height="301"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="UZr-0u-J2h"/>
+                        <outlet property="delegate" destination="-1" id="x7E-Ba-srW"/>
+                    </connections>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iwt-Mb-nfT">
+                    <rect key="frame" x="25" y="442" width="270" height="40"/>
+                    <color key="backgroundColor" red="0.27058823529999998" green="0.27058823529999998" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="2Su-Rw-hKR"/>
+                        <constraint firstAttribute="width" constant="270" id="e1y-Lh-uOL"/>
+                    </constraints>
+                    <state key="normal" title="Local">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zib-Bd-IwW">
+                    <rect key="frame" x="25" y="492" width="270" height="40"/>
+                    <color key="backgroundColor" red="0.13725490200000001" green="0.80000000000000004" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="270" id="0PL-qA-pyH"/>
+                        <constraint firstAttribute="height" constant="40" id="Cln-8f-4Jq"/>
+                    </constraints>
+                    <state key="normal" title="See All">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="qdR-Cg-NHs" secondAttribute="centerX" constant="-3.5" id="5Bn-3Y-ElO"/>
+                <constraint firstAttribute="centerX" secondItem="Le7-qG-B3I" secondAttribute="centerX" constant="-3" id="5V3-rh-22p"/>
+                <constraint firstItem="zib-Bd-IwW" firstAttribute="top" secondItem="iwt-Mb-nfT" secondAttribute="bottom" constant="10" id="VQB-aC-6Fy"/>
+                <constraint firstItem="qdR-Cg-NHs" firstAttribute="top" secondItem="cPR-gW-ou9" secondAttribute="top" constant="80" id="WoN-Sf-lI0"/>
+                <constraint firstItem="Le7-qG-B3I" firstAttribute="leading" secondItem="cPR-gW-ou9" secondAttribute="leading" id="X9T-52-EVE"/>
+                <constraint firstAttribute="bottom" secondItem="Le7-qG-B3I" secondAttribute="bottom" constant="178" id="XUr-z1-i9j"/>
+                <constraint firstItem="iwt-Mb-nfT" firstAttribute="top" secondItem="Le7-qG-B3I" secondAttribute="bottom" constant="20" id="h3u-N8-ZTz"/>
+                <constraint firstItem="Le7-qG-B3I" firstAttribute="top" secondItem="qdR-Cg-NHs" secondAttribute="bottom" constant="20" id="sev-p5-7ED"/>
+                <constraint firstItem="zib-Bd-IwW" firstAttribute="centerX" secondItem="iwt-Mb-nfT" secondAttribute="centerX" id="wem-uO-RIX"/>
+                <constraint firstItem="Le7-qG-B3I" firstAttribute="centerX" secondItem="iwt-Mb-nfT" secondAttribute="centerX" constant="3" id="yPU-lx-lvA"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="1038" y="546"/>
+        </view>
+    </objects>
+</document>

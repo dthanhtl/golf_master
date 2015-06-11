@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfileViewController">
+            <connections>
+                <outlet property="avatar" destination="bKY-Rm-8dC" id="ZMp-th-d1n"/>
+                <outlet property="halo" destination="t37-He-pGV" id="qbg-wP-Rgj"/>
+                <outlet property="view" destination="efi-Zh-kUc" id="BYm-WY-9aM"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="efi-Zh-kUc">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainbackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="mul-zy-QJn">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MY PROFILE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yzv-nD-9jz">
+                    <rect key="frame" x="64" y="80" width="193" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="193" id="NOQ-wY-7Oh"/>
+                        <constraint firstAttribute="height" constant="21" id="Qb0-9s-m8p"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="22"/>
+                    <color key="textColor" red="0.13725490200000001" green="0.80000000000000004" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="avatar_golf.png" translatesAutoresizingMaskIntoConstraints="NO" id="bKY-Rm-8dC">
+                    <rect key="frame" x="100" y="133" width="120" height="120"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="GRA-oG-4xq"/>
+                        <constraint firstAttribute="width" constant="120" id="pme-6G-77m"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pY5-zg-yvf">
+                    <rect key="frame" x="80" y="269" width="160" height="30"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="David" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b4o-Js-jtY">
+                            <rect key="frame" x="37" y="4" width="46" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Krbec" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uof-4i-v9o">
+                            <rect key="frame" x="83" y="4" width="46" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.13725490200000001" green="0.80000000000000004" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="160" id="dgJ-2W-D0g"/>
+                        <constraint firstAttribute="height" constant="30" id="xJj-JF-ozL"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Orlando, FC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sbz-Vp-OFV">
+                    <rect key="frame" x="118" y="319" width="84" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="84" id="Fdn-1j-Th3"/>
+                        <constraint firstAttribute="height" constant="21" id="NKf-Zf-NCw"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Handicap: +4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bl3-cH-vba">
+                    <rect key="frame" x="118" y="348" width="84" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="5LQ-6y-SnK"/>
+                        <constraint firstAttribute="width" constant="84" id="NBO-2e-uiV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home Course: Bear Lake" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WEj-4B-GnO">
+                    <rect key="frame" x="85" y="377" width="151" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="151" id="IPa-P0-Xcf"/>
+                        <constraint firstAttribute="height" constant="21" id="c7U-mZ-hm5"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t37-He-pGV">
+                    <rect key="frame" x="95" y="128" width="130" height="130"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="130" id="T85-dW-zkw"/>
+                        <constraint firstAttribute="height" constant="130" id="n8d-iz-col"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerY" secondItem="mul-zy-QJn" secondAttribute="centerY" id="1Vj-Gw-ocA"/>
+                <constraint firstItem="pY5-zg-yvf" firstAttribute="centerX" secondItem="Sbz-Vp-OFV" secondAttribute="centerX" id="2f0-e5-b9b"/>
+                <constraint firstItem="WEj-4B-GnO" firstAttribute="centerX" secondItem="Bl3-cH-vba" secondAttribute="centerX" constant="0.5" id="3pb-3y-Ces"/>
+                <constraint firstItem="bKY-Rm-8dC" firstAttribute="top" secondItem="yzv-nD-9jz" secondAttribute="bottom" constant="32" id="8Et-n0-f5u"/>
+                <constraint firstAttribute="centerX" secondItem="mul-zy-QJn" secondAttribute="centerX" id="B11-WJ-kA4"/>
+                <constraint firstItem="mul-zy-QJn" firstAttribute="top" secondItem="efi-Zh-kUc" secondAttribute="top" id="C1s-QD-vX2"/>
+                <constraint firstItem="Bl3-cH-vba" firstAttribute="top" secondItem="Sbz-Vp-OFV" secondAttribute="bottom" constant="8" id="Ffb-B8-PQ8"/>
+                <constraint firstItem="bKY-Rm-8dC" firstAttribute="centerY" secondItem="t37-He-pGV" secondAttribute="centerY" id="GdV-mI-Fv1"/>
+                <constraint firstItem="yzv-nD-9jz" firstAttribute="top" secondItem="efi-Zh-kUc" secondAttribute="top" constant="80" id="N0j-Xk-tEN"/>
+                <constraint firstItem="mul-zy-QJn" firstAttribute="leading" secondItem="efi-Zh-kUc" secondAttribute="leading" id="RFj-aB-DWx"/>
+                <constraint firstItem="WEj-4B-GnO" firstAttribute="top" secondItem="Bl3-cH-vba" secondAttribute="bottom" constant="8" id="T1G-KO-3CE"/>
+                <constraint firstItem="bKY-Rm-8dC" firstAttribute="centerX" secondItem="t37-He-pGV" secondAttribute="centerX" id="Z06-Aq-Dgs"/>
+                <constraint firstItem="Sbz-Vp-OFV" firstAttribute="centerX" secondItem="Bl3-cH-vba" secondAttribute="centerX" id="eKY-cc-UuW"/>
+                <constraint firstItem="pY5-zg-yvf" firstAttribute="top" secondItem="bKY-Rm-8dC" secondAttribute="bottom" constant="16" id="exR-HM-Itd"/>
+                <constraint firstItem="bKY-Rm-8dC" firstAttribute="centerX" secondItem="yzv-nD-9jz" secondAttribute="centerX" constant="-0.5" id="q4O-42-VjT"/>
+                <constraint firstItem="pY5-zg-yvf" firstAttribute="centerX" secondItem="bKY-Rm-8dC" secondAttribute="centerX" id="qQh-mY-GxP"/>
+                <constraint firstItem="Sbz-Vp-OFV" firstAttribute="top" secondItem="pY5-zg-yvf" secondAttribute="bottom" constant="20" id="sNB-oA-DyG"/>
+                <constraint firstAttribute="centerX" secondItem="yzv-nD-9jz" secondAttribute="centerX" id="utQ-M5-Hmc"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="1245" y="653"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="avatar_golf.png" width="422" height="421"/>
+        <image name="mainbackground.png" width="640" height="1138"/>
+    </resources>
+</document>

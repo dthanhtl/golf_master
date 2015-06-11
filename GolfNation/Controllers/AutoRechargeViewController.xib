@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AutoRechargeViewController">
+            <connections>
+                <outlet property="btnSave" destination="nZ2-DV-yod" id="QQo-65-vYy"/>
+                <outlet property="tfCC" destination="916-ZM-qCB" id="1EU-Sx-RDQ"/>
+                <outlet property="tfEmail" destination="sus-gZ-FW3" id="tVP-w5-b7F"/>
+                <outlet property="tfExpire" destination="MKn-Ye-bCT" id="4K9-kj-7LI"/>
+                <outlet property="tfMoney" destination="4c9-gb-8o6" id="nAD-ZF-lug"/>
+                <outlet property="tfSecu" destination="nGd-1c-Rbk" id="XuY-iC-KLB"/>
+                <outlet property="view" destination="UYl-bt-LM9" id="Ti8-EW-MLC"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="UYl-bt-LM9">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mainbackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="niN-VE-2aN">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AUTO RECHARGE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1bt-Rt-dgy">
+                    <rect key="frame" x="64" y="60" width="193" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="193" id="KIb-Vf-uIj"/>
+                        <constraint firstAttribute="height" constant="21" id="anl-F5-NIR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="22"/>
+                    <color key="textColor" red="0.13725490200000001" green="0.80000000000000004" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How much to auto recharge? Minimum $5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79V-NU-xhz">
+                    <rect key="frame" x="20" y="89" width="280" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="Vlu-Ae-dxT"/>
+                        <constraint firstAttribute="width" constant="280" id="cdC-7B-2As"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ex: $50" placeholder="Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4c9-gb-8o6" userLabel="money">
+                    <rect key="frame" x="30" y="134" width="270" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="DT7-FD-fzf"/>
+                        <constraint firstAttribute="width" constant="270" id="EhA-xQ-NHv"/>
+                    </constraints>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sus-gZ-FW3" userLabel="email">
+                    <rect key="frame" x="30" y="184" width="270" height="40"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="CC#" placeholder="Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="916-ZM-qCB" userLabel="cc">
+                    <rect key="frame" x="30" y="265" width="270" height="40"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Expiration:" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MKn-Ye-bCT" userLabel="expire">
+                    <rect key="frame" x="30" y="315" width="270" height="40"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nZ2-DV-yod" userLabel="security">
+                    <rect key="frame" x="20" y="441" width="270" height="40"/>
+                    <color key="backgroundColor" red="0.13725490200000001" green="0.80000000000000004" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="MYE-4y-JWz"/>
+                        <constraint firstAttribute="width" constant="270" id="rYS-uf-5RT"/>
+                    </constraints>
+                    <state key="normal" title="Save">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Security Code" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nGd-1c-Rbk" userLabel="email">
+                    <rect key="frame" x="30" y="365" width="270" height="40"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="MKn-Ye-bCT" firstAttribute="centerX" secondItem="916-ZM-qCB" secondAttribute="centerX" id="9jj-XO-OCm"/>
+                <constraint firstItem="916-ZM-qCB" firstAttribute="top" secondItem="sus-gZ-FW3" secondAttribute="bottom" constant="41" id="C2c-J1-EU0"/>
+                <constraint firstItem="MKn-Ye-bCT" firstAttribute="width" secondItem="nGd-1c-Rbk" secondAttribute="width" id="GM4-wt-e3N"/>
+                <constraint firstItem="MKn-Ye-bCT" firstAttribute="width" secondItem="916-ZM-qCB" secondAttribute="width" id="K3U-Zp-jE7"/>
+                <constraint firstAttribute="centerX" secondItem="1bt-Rt-dgy" secondAttribute="centerX" id="L7Z-Gv-VKL"/>
+                <constraint firstItem="nGd-1c-Rbk" firstAttribute="top" secondItem="MKn-Ye-bCT" secondAttribute="bottom" constant="10" id="N71-JB-DVk"/>
+                <constraint firstItem="4c9-gb-8o6" firstAttribute="centerX" secondItem="sus-gZ-FW3" secondAttribute="centerX" id="OST-bi-99E"/>
+                <constraint firstItem="79V-NU-xhz" firstAttribute="top" secondItem="1bt-Rt-dgy" secondAttribute="bottom" constant="8" id="Qg0-Pd-BLS"/>
+                <constraint firstAttribute="centerX" secondItem="79V-NU-xhz" secondAttribute="centerX" id="WHH-Wb-n24"/>
+                <constraint firstItem="MKn-Ye-bCT" firstAttribute="height" secondItem="nGd-1c-Rbk" secondAttribute="height" id="Zwl-zP-OUV"/>
+                <constraint firstItem="sus-gZ-FW3" firstAttribute="top" secondItem="4c9-gb-8o6" secondAttribute="bottom" constant="10" id="ZxR-qK-e3H"/>
+                <constraint firstItem="4c9-gb-8o6" firstAttribute="width" secondItem="sus-gZ-FW3" secondAttribute="width" id="anz-mj-FZU"/>
+                <constraint firstItem="4c9-gb-8o6" firstAttribute="height" secondItem="sus-gZ-FW3" secondAttribute="height" id="cEr-eW-OvM"/>
+                <constraint firstItem="4c9-gb-8o6" firstAttribute="top" secondItem="79V-NU-xhz" secondAttribute="bottom" constant="24" id="dgh-bU-xmI"/>
+                <constraint firstItem="MKn-Ye-bCT" firstAttribute="height" secondItem="916-ZM-qCB" secondAttribute="height" id="eKr-4d-khR"/>
+                <constraint firstItem="MKn-Ye-bCT" firstAttribute="top" secondItem="916-ZM-qCB" secondAttribute="bottom" constant="10" id="fhO-Iq-PCj"/>
+                <constraint firstItem="916-ZM-qCB" firstAttribute="height" secondItem="sus-gZ-FW3" secondAttribute="height" id="npB-oF-foa"/>
+                <constraint firstItem="nZ2-DV-yod" firstAttribute="centerX" secondItem="nGd-1c-Rbk" secondAttribute="centerX" constant="-10" id="obH-aE-v2L"/>
+                <constraint firstItem="4c9-gb-8o6" firstAttribute="centerX" secondItem="79V-NU-xhz" secondAttribute="centerX" constant="5" id="pn4-8V-G9A"/>
+                <constraint firstItem="1bt-Rt-dgy" firstAttribute="top" secondItem="UYl-bt-LM9" secondAttribute="top" constant="60" id="ruF-bV-77A"/>
+                <constraint firstItem="nZ2-DV-yod" firstAttribute="top" secondItem="nGd-1c-Rbk" secondAttribute="bottom" constant="36" id="tdM-tU-ZJg"/>
+                <constraint firstItem="MKn-Ye-bCT" firstAttribute="centerX" secondItem="nGd-1c-Rbk" secondAttribute="centerX" id="udR-nh-khR"/>
+                <constraint firstItem="916-ZM-qCB" firstAttribute="width" secondItem="sus-gZ-FW3" secondAttribute="width" id="ww1-Ws-RRA"/>
+                <constraint firstItem="916-ZM-qCB" firstAttribute="centerX" secondItem="sus-gZ-FW3" secondAttribute="centerX" id="yjU-S1-7q8"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="1245" y="653"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="mainbackground.png" width="640" height="1138"/>
+    </resources>
+</document>

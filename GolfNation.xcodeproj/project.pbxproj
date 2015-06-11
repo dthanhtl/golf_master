@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A00DA951B1D5D6B0059DA58 /* ic_payment.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A00DA911B1D5D6B0059DA58 /* ic_payment.png */; };
+		6A00DA961B1D5D6B0059DA58 /* ic_create.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A00DA921B1D5D6B0059DA58 /* ic_create.png */; };
+		6A00DA971B1D5D6B0059DA58 /* ic_manage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A00DA931B1D5D6B0059DA58 /* ic_manage.png */; };
+		6A00DA981B1D5D6B0059DA58 /* ic_search.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A00DA941B1D5D6B0059DA58 /* ic_search.png */; };
+		6A00DA9C1B1D5F8B0059DA58 /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A00DA9A1B1D5F8B0059DA58 /* MenuTableViewCell.m */; };
+		6A00DA9D1B1D5F8B0059DA58 /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A00DA9B1B1D5F8B0059DA58 /* MenuTableViewCell.xib */; };
+		6A5BE3C61B14466E00D198ED /* CreateGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5BE3C41B14466E00D198ED /* CreateGameViewController.m */; };
+		6A5BE3C71B14466E00D198ED /* CreateGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A5BE3C51B14466E00D198ED /* CreateGameViewController.xib */; };
+		6A5BE3CB1B144F0900D198ED /* PaymentHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5BE3C91B144F0900D198ED /* PaymentHistoryViewController.m */; };
+		6A5BE3CC1B144F0900D198ED /* PaymentHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A5BE3CA1B144F0900D198ED /* PaymentHistoryViewController.xib */; };
+		6A5BE3D01B14501200D198ED /* PaymentHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5BE3CE1B14501200D198ED /* PaymentHistoryCell.m */; };
+		6A5BE3D11B14501200D198ED /* PaymentHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A5BE3CF1B14501200D198ED /* PaymentHistoryCell.xib */; };
+		6A5BE40A1B1C799E00D198ED /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5BE4081B1C799E00D198ED /* ProfileViewController.m */; };
+		6A5BE40B1B1C799E00D198ED /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A5BE4091B1C799E00D198ED /* ProfileViewController.xib */; };
+		6A5BE40D1B1C7A7400D198ED /* avatar_golf.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A5BE40C1B1C7A7400D198ED /* avatar_golf.png */; };
+		6A5BE4101B1CBD8F00D198ED /* MenuTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5BE40F1B1CBD8F00D198ED /* MenuTopView.m */; };
+		6A5BE4121B1CBDA400D198ED /* MenuTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A5BE4111B1CBDA400D198ED /* MenuTopView.xib */; };
+		6A5BE4141B1CBF0800D198ED /* ic_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A5BE4131B1CBF0800D198ED /* ic_menu.png */; };
+		6A5BE4161B1CC33500D198ED /* btn_close_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A5BE4151B1CC33500D198ED /* btn_close_small.png */; };
+		6AFFAE281B09EFD6000DEA2E /* mainbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAE271B09EFD6000DEA2E /* mainbackground.png */; };
+		6AFFAE2C1B0B15D9000DEA2E /* logo_fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAE291B0B15D9000DEA2E /* logo_fb.png */; };
+		6AFFAE2D1B0B15D9000DEA2E /* logo_ig.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAE2A1B0B15D9000DEA2E /* logo_ig.png */; };
+		6AFFAE2E1B0B15D9000DEA2E /* logo_tt.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAE2B1B0B15D9000DEA2E /* logo_tt.png */; };
+		6AFFAE321B0B1FF8000DEA2E /* GNRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFAE301B0B1FF8000DEA2E /* GNRegisterViewController.m */; };
+		6AFFAE331B0B1FF8000DEA2E /* GNRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAE311B0B1FF8000DEA2E /* GNRegisterViewController.xib */; };
+		6AFFAE911B0ED4FD000DEA2E /* btn_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAE901B0ED4FD000DEA2E /* btn_close.png */; };
+		6AFFAE951B0ED5D4000DEA2E /* ManageGamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFAE931B0ED5D4000DEA2E /* ManageGamesViewController.m */; };
+		6AFFAE961B0ED5D4000DEA2E /* ManageGamesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAE941B0ED5D4000DEA2E /* ManageGamesViewController.xib */; };
+		6AFFAE9B1B0ED97E000DEA2E /* ListGamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFAE991B0ED97E000DEA2E /* ListGamesViewController.m */; };
+		6AFFAE9C1B0ED97E000DEA2E /* ListGamesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAE9A1B0ED97E000DEA2E /* ListGamesViewController.xib */; };
+		6AFFAEA01B0ED9A4000DEA2E /* ListGamesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFAE9E1B0ED9A4000DEA2E /* ListGamesTableViewCell.m */; };
+		6AFFAEA11B0ED9A4000DEA2E /* ListGamesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAE9F1B0ED9A4000DEA2E /* ListGamesTableViewCell.xib */; };
+		6AFFAEA31B0EE26D000DEA2E /* btnNext.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAEA21B0EE26D000DEA2E /* btnNext.png */; };
+		6AFFAEA51B0EE2F2000DEA2E /* btnNext_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAEA41B0EE2F2000DEA2E /* btnNext_1.png */; };
+		6AFFAEA91B0EE368000DEA2E /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFAEA71B0EE368000DEA2E /* GameViewController.m */; };
+		6AFFAEAA1B0EE368000DEA2E /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAEA81B0EE368000DEA2E /* GameViewController.xib */; };
+		6AFFAEAC1B0EE877000DEA2E /* golfhole.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAEAB1B0EE877000DEA2E /* golfhole.png */; };
+		6AFFAEB01B0EECD4000DEA2E /* ListGamesManageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFAEAE1B0EECD4000DEA2E /* ListGamesManageTableViewCell.m */; };
+		6AFFAEB11B0EECD4000DEA2E /* ListGamesManageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAEAF1B0EECD4000DEA2E /* ListGamesManageTableViewCell.xib */; };
+		6AFFAEB51B0EFCC2000DEA2E /* AutoRechargeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFAEB31B0EFCC2000DEA2E /* AutoRechargeViewController.m */; };
+		6AFFAEB61B0EFCC2000DEA2E /* AutoRechargeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAEB41B0EFCC2000DEA2E /* AutoRechargeViewController.xib */; };
+		6AFFAEBA1B0F02A9000DEA2E /* BillingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFAEB81B0F02A9000DEA2E /* BillingViewController.m */; };
+		6AFFAEBB1B0F02A9000DEA2E /* BillingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFAEB91B0F02A9000DEA2E /* BillingViewController.xib */; };
+		CABDB38A1AFFC030008CF3E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CABDB3891AFFC030008CF3E1 /* main.m */; };
+		CABDB38D1AFFC030008CF3E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CABDB38C1AFFC030008CF3E1 /* AppDelegate.m */; };
+		CABDB3901AFFC030008CF3E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CABDB38F1AFFC030008CF3E1 /* ViewController.m */; };
+		CABDB3931AFFC030008CF3E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABDB3911AFFC030008CF3E1 /* Main.storyboard */; };
+		CABDB3951AFFC030008CF3E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABDB3941AFFC030008CF3E1 /* Images.xcassets */; };
+		CABDB3981AFFC030008CF3E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CABDB3961AFFC030008CF3E1 /* LaunchScreen.xib */; };
+		CABDB3A41AFFC030008CF3E1 /* GolfNationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CABDB3A31AFFC030008CF3E1 /* GolfNationTests.m */; };
+		CABDB3BF1AFFC6BA008CF3E1 /* GNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CABDB3BE1AFFC6BA008CF3E1 /* GNViewController.m */; };
+		CABDB3C31AFFC6D4008CF3E1 /* GNLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CABDB3C11AFFC6D4008CF3E1 /* GNLoginViewController.m */; };
+		CABDB3C41AFFC6D4008CF3E1 /* GNLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CABDB3C21AFFC6D4008CF3E1 /* GNLoginViewController.xib */; };
+		CABDB3C61AFFC93B008CF3E1 /* Top_banner.png in Resources */ = {isa = PBXBuildFile; fileRef = CABDB3C51AFFC93B008CF3E1 /* Top_banner.png */; };
+		E17071EF1B13514F0098A7C5 /* MyGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E17071ED1B13514F0098A7C5 /* MyGameViewController.m */; };
+		E17071F01B13514F0098A7C5 /* MyGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E17071EE1B13514F0098A7C5 /* MyGameViewController.xib */; };
+		E17071FE1B1352800098A7C5 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = E17071F31B1352800098A7C5 /* RECommonFunctions.m */; };
+		E17071FF1B1352800098A7C5 /* REFrostedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E17071F51B1352800098A7C5 /* REFrostedContainerViewController.m */; };
+		E17072001B1352800098A7C5 /* REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E17071F71B1352800098A7C5 /* REFrostedViewController.m */; };
+		E17072011B1352800098A7C5 /* UIImage+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E17071F91B1352800098A7C5 /* UIImage+REFrostedViewController.m */; };
+		E17072021B1352800098A7C5 /* UIView+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E17071FB1B1352800098A7C5 /* UIView+REFrostedViewController.m */; };
+		E17072031B1352800098A7C5 /* UIViewController+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E17071FD1B1352800098A7C5 /* UIViewController+REFrostedViewController.m */; };
+		E17072071B1353310098A7C5 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E17072061B1353310098A7C5 /* MenuViewController.m */; };
+		E170720A1B1353AC0098A7C5 /* GNNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E17072091B1353AC0098A7C5 /* GNNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CABDB39E1AFFC030008CF3E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CABDB37C1AFFC030008CF3E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CABDB3831AFFC030008CF3E1;
+			remoteInfo = GolfNation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A00DA911B1D5D6B0059DA58 /* ic_payment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_payment.png; sourceTree = "<group>"; };
+		6A00DA921B1D5D6B0059DA58 /* ic_create.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_create.png; sourceTree = "<group>"; };
+		6A00DA931B1D5D6B0059DA58 /* ic_manage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_manage.png; sourceTree = "<group>"; };
+		6A00DA941B1D5D6B0059DA58 /* ic_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_search.png; sourceTree = "<group>"; };
+		6A00DA991B1D5F8B0059DA58 /* MenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewCell.h; sourceTree = "<group>"; };
+		6A00DA9A1B1D5F8B0059DA58 /* MenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewCell.m; sourceTree = "<group>"; };
+		6A00DA9B1B1D5F8B0059DA58 /* MenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
+		6A5BE3C31B14466E00D198ED /* CreateGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateGameViewController.h; sourceTree = "<group>"; };
+		6A5BE3C41B14466E00D198ED /* CreateGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateGameViewController.m; sourceTree = "<group>"; };
+		6A5BE3C51B14466E00D198ED /* CreateGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateGameViewController.xib; sourceTree = "<group>"; };
+		6A5BE3C81B144F0900D198ED /* PaymentHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentHistoryViewController.h; sourceTree = "<group>"; };
+		6A5BE3C91B144F0900D198ED /* PaymentHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentHistoryViewController.m; sourceTree = "<group>"; };
+		6A5BE3CA1B144F0900D198ED /* PaymentHistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentHistoryViewController.xib; sourceTree = "<group>"; };
+		6A5BE3CD1B14501200D198ED /* PaymentHistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentHistoryCell.h; sourceTree = "<group>"; };
+		6A5BE3CE1B14501200D198ED /* PaymentHistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentHistoryCell.m; sourceTree = "<group>"; };
+		6A5BE3CF1B14501200D198ED /* PaymentHistoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentHistoryCell.xib; sourceTree = "<group>"; };
+		6A5BE4071B1C799E00D198ED /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		6A5BE4081B1C799E00D198ED /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		6A5BE4091B1C799E00D198ED /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		6A5BE40C1B1C7A7400D198ED /* avatar_golf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar_golf.png; sourceTree = "<group>"; };
+		6A5BE40E1B1CBD8F00D198ED /* MenuTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTopView.h; sourceTree = "<group>"; };
+		6A5BE40F1B1CBD8F00D198ED /* MenuTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTopView.m; sourceTree = "<group>"; };
+		6A5BE4111B1CBDA400D198ED /* MenuTopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuTopView.xib; sourceTree = "<group>"; };
+		6A5BE4131B1CBF0800D198ED /* ic_menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu.png; sourceTree = "<group>"; };
+		6A5BE4151B1CC33500D198ED /* btn_close_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_close_small.png; sourceTree = "<group>"; };
+		6AFFAE271B09EFD6000DEA2E /* mainbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainbackground.png; sourceTree = "<group>"; };
+		6AFFAE291B0B15D9000DEA2E /* logo_fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_fb.png; sourceTree = "<group>"; };
+		6AFFAE2A1B0B15D9000DEA2E /* logo_ig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_ig.png; sourceTree = "<group>"; };
+		6AFFAE2B1B0B15D9000DEA2E /* logo_tt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_tt.png; sourceTree = "<group>"; };
+		6AFFAE2F1B0B1FF8000DEA2E /* GNRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNRegisterViewController.h; sourceTree = "<group>"; };
+		6AFFAE301B0B1FF8000DEA2E /* GNRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNRegisterViewController.m; sourceTree = "<group>"; };
+		6AFFAE311B0B1FF8000DEA2E /* GNRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GNRegisterViewController.xib; sourceTree = "<group>"; };
+		6AFFAE901B0ED4FD000DEA2E /* btn_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_close.png; sourceTree = "<group>"; };
+		6AFFAE921B0ED5D4000DEA2E /* ManageGamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManageGamesViewController.h; sourceTree = "<group>"; };
+		6AFFAE931B0ED5D4000DEA2E /* ManageGamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManageGamesViewController.m; sourceTree = "<group>"; };
+		6AFFAE941B0ED5D4000DEA2E /* ManageGamesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ManageGamesViewController.xib; sourceTree = "<group>"; };
+		6AFFAE981B0ED97E000DEA2E /* ListGamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListGamesViewController.h; sourceTree = "<group>"; };
+		6AFFAE991B0ED97E000DEA2E /* ListGamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListGamesViewController.m; sourceTree = "<group>"; };
+		6AFFAE9A1B0ED97E000DEA2E /* ListGamesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListGamesViewController.xib; sourceTree = "<group>"; };
+		6AFFAE9D1B0ED9A4000DEA2E /* ListGamesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListGamesTableViewCell.h; sourceTree = "<group>"; };
+		6AFFAE9E1B0ED9A4000DEA2E /* ListGamesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListGamesTableViewCell.m; sourceTree = "<group>"; };
+		6AFFAE9F1B0ED9A4000DEA2E /* ListGamesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListGamesTableViewCell.xib; sourceTree = "<group>"; };
+		6AFFAEA21B0EE26D000DEA2E /* btnNext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnNext.png; sourceTree = "<group>"; };
+		6AFFAEA41B0EE2F2000DEA2E /* btnNext_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnNext_1.png; sourceTree = "<group>"; };
+		6AFFAEA61B0EE368000DEA2E /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		6AFFAEA71B0EE368000DEA2E /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		6AFFAEA81B0EE368000DEA2E /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		6AFFAEAB1B0EE877000DEA2E /* golfhole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = golfhole.png; sourceTree = "<group>"; };
+		6AFFAEAD1B0EECD4000DEA2E /* ListGamesManageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListGamesManageTableViewCell.h; sourceTree = "<group>"; };
+		6AFFAEAE1B0EECD4000DEA2E /* ListGamesManageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListGamesManageTableViewCell.m; sourceTree = "<group>"; };
+		6AFFAEAF1B0EECD4000DEA2E /* ListGamesManageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListGamesManageTableViewCell.xib; sourceTree = "<group>"; };
+		6AFFAEB21B0EFCC2000DEA2E /* AutoRechargeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoRechargeViewController.h; sourceTree = "<group>"; };
+		6AFFAEB31B0EFCC2000DEA2E /* AutoRechargeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoRechargeViewController.m; sourceTree = "<group>"; };
+		6AFFAEB41B0EFCC2000DEA2E /* AutoRechargeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoRechargeViewController.xib; sourceTree = "<group>"; };
+		6AFFAEB71B0F02A9000DEA2E /* BillingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillingViewController.h; sourceTree = "<group>"; };
+		6AFFAEB81B0F02A9000DEA2E /* BillingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillingViewController.m; sourceTree = "<group>"; };
+		6AFFAEB91B0F02A9000DEA2E /* BillingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BillingViewController.xib; sourceTree = "<group>"; };
+		CABDB3841AFFC030008CF3E1 /* GolfNation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolfNation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABDB3881AFFC030008CF3E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABDB3891AFFC030008CF3E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CABDB38B1AFFC030008CF3E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CABDB38C1AFFC030008CF3E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CABDB38E1AFFC030008CF3E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CABDB38F1AFFC030008CF3E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CABDB3921AFFC030008CF3E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CABDB3941AFFC030008CF3E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CABDB3971AFFC030008CF3E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CABDB39D1AFFC030008CF3E1 /* GolfNationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GolfNationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABDB3A21AFFC030008CF3E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABDB3A31AFFC030008CF3E1 /* GolfNationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GolfNationTests.m; sourceTree = "<group>"; };
+		CABDB3BD1AFFC6BA008CF3E1 /* GNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNViewController.h; sourceTree = "<group>"; };
+		CABDB3BE1AFFC6BA008CF3E1 /* GNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNViewController.m; sourceTree = "<group>"; };
+		CABDB3C01AFFC6D4008CF3E1 /* GNLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNLoginViewController.h; sourceTree = "<group>"; };
+		CABDB3C11AFFC6D4008CF3E1 /* GNLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNLoginViewController.m; sourceTree = "<group>"; };
+		CABDB3C21AFFC6D4008CF3E1 /* GNLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GNLoginViewController.xib; sourceTree = "<group>"; };
+		CABDB3C51AFFC93B008CF3E1 /* Top_banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Top_banner.png; sourceTree = "<group>"; };
+		E17071EC1B13514F0098A7C5 /* MyGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGameViewController.h; sourceTree = "<group>"; };
+		E17071ED1B13514F0098A7C5 /* MyGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGameViewController.m; sourceTree = "<group>"; };
+		E17071EE1B13514F0098A7C5 /* MyGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyGameViewController.xib; sourceTree = "<group>"; };
+		E17071F21B1352800098A7C5 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		E17071F31B1352800098A7C5 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		E17071F41B1352800098A7C5 /* REFrostedContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFrostedContainerViewController.h; sourceTree = "<group>"; };
+		E17071F51B1352800098A7C5 /* REFrostedContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REFrostedContainerViewController.m; sourceTree = "<group>"; };
+		E17071F61B1352800098A7C5 /* REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFrostedViewController.h; sourceTree = "<group>"; };
+		E17071F71B1352800098A7C5 /* REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REFrostedViewController.m; sourceTree = "<group>"; };
+		E17071F81B1352800098A7C5 /* UIImage+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+REFrostedViewController.h"; sourceTree = "<group>"; };
+		E17071F91B1352800098A7C5 /* UIImage+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+REFrostedViewController.m"; sourceTree = "<group>"; };
+		E17071FA1B1352800098A7C5 /* UIView+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+REFrostedViewController.h"; sourceTree = "<group>"; };
+		E17071FB1B1352800098A7C5 /* UIView+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+REFrostedViewController.m"; sourceTree = "<group>"; };
+		E17071FC1B1352800098A7C5 /* UIViewController+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+REFrostedViewController.h"; sourceTree = "<group>"; };
+		E17071FD1B1352800098A7C5 /* UIViewController+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+REFrostedViewController.m"; sourceTree = "<group>"; };
+		E17072051B1353310098A7C5 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		E17072061B1353310098A7C5 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		E17072081B1353AC0098A7C5 /* GNNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNNavigationController.h; sourceTree = "<group>"; };
+		E17072091B1353AC0098A7C5 /* GNNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CABDB3811AFFC030008CF3E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABDB39A1AFFC030008CF3E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AFFAE971B0ED96B000DEA2E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6AFFAE9D1B0ED9A4000DEA2E /* ListGamesTableViewCell.h */,
+				6AFFAE9E1B0ED9A4000DEA2E /* ListGamesTableViewCell.m */,
+				6AFFAE9F1B0ED9A4000DEA2E /* ListGamesTableViewCell.xib */,
+				6AFFAEAD1B0EECD4000DEA2E /* ListGamesManageTableViewCell.h */,
+				6AFFAEAE1B0EECD4000DEA2E /* ListGamesManageTableViewCell.m */,
+				6AFFAEAF1B0EECD4000DEA2E /* ListGamesManageTableViewCell.xib */,
+				6A5BE3CD1B14501200D198ED /* PaymentHistoryCell.h */,
+				6A5BE3CE1B14501200D198ED /* PaymentHistoryCell.m */,
+				6A5BE3CF1B14501200D198ED /* PaymentHistoryCell.xib */,
+				6A00DA991B1D5F8B0059DA58 /* MenuTableViewCell.h */,
+				6A00DA9A1B1D5F8B0059DA58 /* MenuTableViewCell.m */,
+				6A00DA9B1B1D5F8B0059DA58 /* MenuTableViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CABDB37B1AFFC030008CF3E1 = {
+			isa = PBXGroup;
+			children = (
+				CABDB3861AFFC030008CF3E1 /* GolfNation */,
+				CABDB3A01AFFC030008CF3E1 /* GolfNationTests */,
+				CABDB3851AFFC030008CF3E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CABDB3851AFFC030008CF3E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CABDB3841AFFC030008CF3E1 /* GolfNation.app */,
+				CABDB39D1AFFC030008CF3E1 /* GolfNationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CABDB3861AFFC030008CF3E1 /* GolfNation */ = {
+			isa = PBXGroup;
+			children = (
+				CABDB3B81AFFC69B008CF3E1 /* Base */,
+				CABDB3B91AFFC69B008CF3E1 /* Common */,
+				CABDB3BA1AFFC69B008CF3E1 /* Controllers */,
+				CABDB3BB1AFFC69B008CF3E1 /* Libs */,
+				CABDB3BC1AFFC69B008CF3E1 /* Resources */,
+				CABDB38B1AFFC030008CF3E1 /* AppDelegate.h */,
+				CABDB38C1AFFC030008CF3E1 /* AppDelegate.m */,
+				CABDB38E1AFFC030008CF3E1 /* ViewController.h */,
+				CABDB38F1AFFC030008CF3E1 /* ViewController.m */,
+				CABDB3911AFFC030008CF3E1 /* Main.storyboard */,
+				CABDB3941AFFC030008CF3E1 /* Images.xcassets */,
+				CABDB3961AFFC030008CF3E1 /* LaunchScreen.xib */,
+				CABDB3871AFFC030008CF3E1 /* Supporting Files */,
+			);
+			path = GolfNation;
+			sourceTree = "<group>";
+		};
+		CABDB3871AFFC030008CF3E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CABDB3881AFFC030008CF3E1 /* Info.plist */,
+				CABDB3891AFFC030008CF3E1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CABDB3A01AFFC030008CF3E1 /* GolfNationTests */ = {
+			isa = PBXGroup;
+			children = (
+				CABDB3A31AFFC030008CF3E1 /* GolfNationTests.m */,
+				CABDB3A11AFFC030008CF3E1 /* Supporting Files */,
+			);
+			path = GolfNationTests;
+			sourceTree = "<group>";
+		};
+		CABDB3A11AFFC030008CF3E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CABDB3A21AFFC030008CF3E1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CABDB3B81AFFC69B008CF3E1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CABDB3BD1AFFC6BA008CF3E1 /* GNViewController.h */,
+				CABDB3BE1AFFC6BA008CF3E1 /* GNViewController.m */,
+				E17072081B1353AC0098A7C5 /* GNNavigationController.h */,
+				E17072091B1353AC0098A7C5 /* GNNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CABDB3B91AFFC69B008CF3E1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CABDB3BA1AFFC69B008CF3E1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E17072041B1353220098A7C5 /* Menu */,
+				6AFFAE971B0ED96B000DEA2E /* Views */,
+				CABDB3C01AFFC6D4008CF3E1 /* GNLoginViewController.h */,
+				CABDB3C11AFFC6D4008CF3E1 /* GNLoginViewController.m */,
+				CABDB3C21AFFC6D4008CF3E1 /* GNLoginViewController.xib */,
+				6AFFAE2F1B0B1FF8000DEA2E /* GNRegisterViewController.h */,
+				6AFFAE301B0B1FF8000DEA2E /* GNRegisterViewController.m */,
+				6AFFAE311B0B1FF8000DEA2E /* GNRegisterViewController.xib */,
+				6AFFAE921B0ED5D4000DEA2E /* ManageGamesViewController.h */,
+				6AFFAE931B0ED5D4000DEA2E /* ManageGamesViewController.m */,
+				6AFFAE941B0ED5D4000DEA2E /* ManageGamesViewController.xib */,
+				6AFFAE981B0ED97E000DEA2E /* ListGamesViewController.h */,
+				6AFFAE991B0ED97E000DEA2E /* ListGamesViewController.m */,
+				6AFFAE9A1B0ED97E000DEA2E /* ListGamesViewController.xib */,
+				6AFFAEA61B0EE368000DEA2E /* GameViewController.h */,
+				6AFFAEA71B0EE368000DEA2E /* GameViewController.m */,
+				6AFFAEA81B0EE368000DEA2E /* GameViewController.xib */,
+				6AFFAEB21B0EFCC2000DEA2E /* AutoRechargeViewController.h */,
+				6AFFAEB31B0EFCC2000DEA2E /* AutoRechargeViewController.m */,
+				6AFFAEB41B0EFCC2000DEA2E /* AutoRechargeViewController.xib */,
+				6AFFAEB71B0F02A9000DEA2E /* BillingViewController.h */,
+				6AFFAEB81B0F02A9000DEA2E /* BillingViewController.m */,
+				6AFFAEB91B0F02A9000DEA2E /* BillingViewController.xib */,
+				E17071EC1B13514F0098A7C5 /* MyGameViewController.h */,
+				E17071ED1B13514F0098A7C5 /* MyGameViewController.m */,
+				E17071EE1B13514F0098A7C5 /* MyGameViewController.xib */,
+				6A5BE3C31B14466E00D198ED /* CreateGameViewController.h */,
+				6A5BE3C41B14466E00D198ED /* CreateGameViewController.m */,
+				6A5BE3C51B14466E00D198ED /* CreateGameViewController.xib */,
+				6A5BE3C81B144F0900D198ED /* PaymentHistoryViewController.h */,
+				6A5BE3C91B144F0900D198ED /* PaymentHistoryViewController.m */,
+				6A5BE3CA1B144F0900D198ED /* PaymentHistoryViewController.xib */,
+				6A5BE4071B1C799E00D198ED /* ProfileViewController.h */,
+				6A5BE4081B1C799E00D198ED /* ProfileViewController.m */,
+				6A5BE4091B1C799E00D198ED /* ProfileViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CABDB3BB1AFFC69B008CF3E1 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				E17071F11B1352800098A7C5 /* REFrostedViewController */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		CABDB3BC1AFFC69B008CF3E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6A00DA911B1D5D6B0059DA58 /* ic_payment.png */,
+				6A00DA921B1D5D6B0059DA58 /* ic_create.png */,
+				6A00DA931B1D5D6B0059DA58 /* ic_manage.png */,
+				6A00DA941B1D5D6B0059DA58 /* ic_search.png */,
+				6A5BE4151B1CC33500D198ED /* btn_close_small.png */,
+				6A5BE4131B1CBF0800D198ED /* ic_menu.png */,
+				6A5BE40C1B1C7A7400D198ED /* avatar_golf.png */,
+				6AFFAEAB1B0EE877000DEA2E /* golfhole.png */,
+				6AFFAEA41B0EE2F2000DEA2E /* btnNext_1.png */,
+				6AFFAEA21B0EE26D000DEA2E /* btnNext.png */,
+				6AFFAE901B0ED4FD000DEA2E /* btn_close.png */,
+				6AFFAE291B0B15D9000DEA2E /* logo_fb.png */,
+				6AFFAE2A1B0B15D9000DEA2E /* logo_ig.png */,
+				6AFFAE2B1B0B15D9000DEA2E /* logo_tt.png */,
+				6AFFAE271B09EFD6000DEA2E /* mainbackground.png */,
+				CABDB3C51AFFC93B008CF3E1 /* Top_banner.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E17071F11B1352800098A7C5 /* REFrostedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E17071F21B1352800098A7C5 /* RECommonFunctions.h */,
+				E17071F31B1352800098A7C5 /* RECommonFunctions.m */,
+				E17071F41B1352800098A7C5 /* REFrostedContainerViewController.h */,
+				E17071F51B1352800098A7C5 /* REFrostedContainerViewController.m */,
+				E17071F61B1352800098A7C5 /* REFrostedViewController.h */,
+				E17071F71B1352800098A7C5 /* REFrostedViewController.m */,
+				E17071F81B1352800098A7C5 /* UIImage+REFrostedViewController.h */,
+				E17071F91B1352800098A7C5 /* UIImage+REFrostedViewController.m */,
+				E17071FA1B1352800098A7C5 /* UIView+REFrostedViewController.h */,
+				E17071FB1B1352800098A7C5 /* UIView+REFrostedViewController.m */,
+				E17071FC1B1352800098A7C5 /* UIViewController+REFrostedViewController.h */,
+				E17071FD1B1352800098A7C5 /* UIViewController+REFrostedViewController.m */,
+			);
+			path = REFrostedViewController;
+			sourceTree = "<group>";
+		};
+		E17072041B1353220098A7C5 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				E17072051B1353310098A7C5 /* MenuViewController.h */,
+				E17072061B1353310098A7C5 /* MenuViewController.m */,
+				6A5BE40E1B1CBD8F00D198ED /* MenuTopView.h */,
+				6A5BE40F1B1CBD8F00D198ED /* MenuTopView.m */,
+				6A5BE4111B1CBDA400D198ED /* MenuTopView.xib */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CABDB3831AFFC030008CF3E1 /* GolfNation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABDB3A71AFFC030008CF3E1 /* Build configuration list for PBXNativeTarget "GolfNation" */;
+			buildPhases = (
+				CABDB3801AFFC030008CF3E1 /* Sources */,
+				CABDB3811AFFC030008CF3E1 /* Frameworks */,
+				CABDB3821AFFC030008CF3E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GolfNation;
+			productName = GolfNation;
+			productReference = CABDB3841AFFC030008CF3E1 /* GolfNation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CABDB39C1AFFC030008CF3E1 /* GolfNationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABDB3AA1AFFC030008CF3E1 /* Build configuration list for PBXNativeTarget "GolfNationTests" */;
+			buildPhases = (
+				CABDB3991AFFC030008CF3E1 /* Sources */,
+				CABDB39A1AFFC030008CF3E1 /* Frameworks */,
+				CABDB39B1AFFC030008CF3E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CABDB39F1AFFC030008CF3E1 /* PBXTargetDependency */,
+			);
+			name = GolfNationTests;
+			productName = GolfNationTests;
+			productReference = CABDB39D1AFFC030008CF3E1 /* GolfNationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CABDB37C1AFFC030008CF3E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Giang Tran";
+				TargetAttributes = {
+					CABDB3831AFFC030008CF3E1 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					CABDB39C1AFFC030008CF3E1 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = CABDB3831AFFC030008CF3E1;
+					};
+				};
+			};
+			buildConfigurationList = CABDB37F1AFFC030008CF3E1 /* Build configuration list for PBXProject "GolfNation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CABDB37B1AFFC030008CF3E1;
+			productRefGroup = CABDB3851AFFC030008CF3E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CABDB3831AFFC030008CF3E1 /* GolfNation */,
+				CABDB39C1AFFC030008CF3E1 /* GolfNationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CABDB3821AFFC030008CF3E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AFFAE281B09EFD6000DEA2E /* mainbackground.png in Resources */,
+				6A5BE4161B1CC33500D198ED /* btn_close_small.png in Resources */,
+				6AFFAE9C1B0ED97E000DEA2E /* ListGamesViewController.xib in Resources */,
+				CABDB3931AFFC030008CF3E1 /* Main.storyboard in Resources */,
+				6AFFAEA51B0EE2F2000DEA2E /* btnNext_1.png in Resources */,
+				6AFFAEA11B0ED9A4000DEA2E /* ListGamesTableViewCell.xib in Resources */,
+				6AFFAE331B0B1FF8000DEA2E /* GNRegisterViewController.xib in Resources */,
+				6A00DA951B1D5D6B0059DA58 /* ic_payment.png in Resources */,
+				6A00DA9D1B1D5F8B0059DA58 /* MenuTableViewCell.xib in Resources */,
+				6AFFAE911B0ED4FD000DEA2E /* btn_close.png in Resources */,
+				6A5BE3C71B14466E00D198ED /* CreateGameViewController.xib in Resources */,
+				6AFFAE2E1B0B15D9000DEA2E /* logo_tt.png in Resources */,
+				6A5BE3D11B14501200D198ED /* PaymentHistoryCell.xib in Resources */,
+				CABDB3981AFFC030008CF3E1 /* LaunchScreen.xib in Resources */,
+				6AFFAEA31B0EE26D000DEA2E /* btnNext.png in Resources */,
+				CABDB3951AFFC030008CF3E1 /* Images.xcassets in Resources */,
+				6AFFAE961B0ED5D4000DEA2E /* ManageGamesViewController.xib in Resources */,
+				E17071F01B13514F0098A7C5 /* MyGameViewController.xib in Resources */,
+				6A5BE4141B1CBF0800D198ED /* ic_menu.png in Resources */,
+				CABDB3C41AFFC6D4008CF3E1 /* GNLoginViewController.xib in Resources */,
+				6A5BE40B1B1C799E00D198ED /* ProfileViewController.xib in Resources */,
+				6AFFAEAA1B0EE368000DEA2E /* GameViewController.xib in Resources */,
+				6A5BE3CC1B144F0900D198ED /* PaymentHistoryViewController.xib in Resources */,
+				6A5BE4121B1CBDA400D198ED /* MenuTopView.xib in Resources */,
+				6AFFAE2D1B0B15D9000DEA2E /* logo_ig.png in Resources */,
+				6AFFAEAC1B0EE877000DEA2E /* golfhole.png in Resources */,
+				6A00DA981B1D5D6B0059DA58 /* ic_search.png in Resources */,
+				6AFFAEBB1B0F02A9000DEA2E /* BillingViewController.xib in Resources */,
+				6A00DA971B1D5D6B0059DA58 /* ic_manage.png in Resources */,
+				6AFFAEB61B0EFCC2000DEA2E /* AutoRechargeViewController.xib in Resources */,
+				6AFFAE2C1B0B15D9000DEA2E /* logo_fb.png in Resources */,
+				6AFFAEB11B0EECD4000DEA2E /* ListGamesManageTableViewCell.xib in Resources */,
+				6A5BE40D1B1C7A7400D198ED /* avatar_golf.png in Resources */,
+				CABDB3C61AFFC93B008CF3E1 /* Top_banner.png in Resources */,
+				6A00DA961B1D5D6B0059DA58 /* ic_create.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABDB39B1AFFC030008CF3E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CABDB3801AFFC030008CF3E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A5BE3CB1B144F0900D198ED /* PaymentHistoryViewController.m in Sources */,
+				6AFFAEA91B0EE368000DEA2E /* GameViewController.m in Sources */,
+				E17071FF1B1352800098A7C5 /* REFrostedContainerViewController.m in Sources */,
+				E17071FE1B1352800098A7C5 /* RECommonFunctions.m in Sources */,
+				CABDB3901AFFC030008CF3E1 /* ViewController.m in Sources */,
+				E17072071B1353310098A7C5 /* MenuViewController.m in Sources */,
+				CABDB3C31AFFC6D4008CF3E1 /* GNLoginViewController.m in Sources */,
+				E17072021B1352800098A7C5 /* UIView+REFrostedViewController.m in Sources */,
+				CABDB3BF1AFFC6BA008CF3E1 /* GNViewController.m in Sources */,
+				CABDB38D1AFFC030008CF3E1 /* AppDelegate.m in Sources */,
+				6A00DA9C1B1D5F8B0059DA58 /* MenuTableViewCell.m in Sources */,
+				6AFFAEA01B0ED9A4000DEA2E /* ListGamesTableViewCell.m in Sources */,
+				E17071EF1B13514F0098A7C5 /* MyGameViewController.m in Sources */,
+				E17072031B1352800098A7C5 /* UIViewController+REFrostedViewController.m in Sources */,
+				6AFFAE9B1B0ED97E000DEA2E /* ListGamesViewController.m in Sources */,
+				CABDB38A1AFFC030008CF3E1 /* main.m in Sources */,
+				6AFFAEB51B0EFCC2000DEA2E /* AutoRechargeViewController.m in Sources */,
+				6AFFAE321B0B1FF8000DEA2E /* GNRegisterViewController.m in Sources */,
+				6A5BE4101B1CBD8F00D198ED /* MenuTopView.m in Sources */,
+				E17072011B1352800098A7C5 /* UIImage+REFrostedViewController.m in Sources */,
+				6AFFAEB01B0EECD4000DEA2E /* ListGamesManageTableViewCell.m in Sources */,
+				E17072001B1352800098A7C5 /* REFrostedViewController.m in Sources */,
+				6AFFAE951B0ED5D4000DEA2E /* ManageGamesViewController.m in Sources */,
+				6A5BE3C61B14466E00D198ED /* CreateGameViewController.m in Sources */,
+				6A5BE40A1B1C799E00D198ED /* ProfileViewController.m in Sources */,
+				6A5BE3D01B14501200D198ED /* PaymentHistoryCell.m in Sources */,
+				E170720A1B1353AC0098A7C5 /* GNNavigationController.m in Sources */,
+				6AFFAEBA1B0F02A9000DEA2E /* BillingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABDB3991AFFC030008CF3E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABDB3A41AFFC030008CF3E1 /* GolfNationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CABDB39F1AFFC030008CF3E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CABDB3831AFFC030008CF3E1 /* GolfNation */;
+			targetProxy = CABDB39E1AFFC030008CF3E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CABDB3911AFFC030008CF3E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CABDB3921AFFC030008CF3E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CABDB3961AFFC030008CF3E1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CABDB3971AFFC030008CF3E1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CABDB3A51AFFC030008CF3E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CABDB3A61AFFC030008CF3E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Drinkbin, LLC (SMUK2NY4E5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Drinkbin, LLC (SMUK2NY4E5)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CABDB3A81AFFC030008CF3E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GolfNation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CABDB3A91AFFC030008CF3E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GolfNation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CABDB3AB1AFFC030008CF3E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GolfNationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GolfNation.app/GolfNation";
+			};
+			name = Debug;
+		};
+		CABDB3AC1AFFC030008CF3E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GolfNationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GolfNation.app/GolfNation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CABDB37F1AFFC030008CF3E1 /* Build configuration list for PBXProject "GolfNation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABDB3A51AFFC030008CF3E1 /* Debug */,
+				CABDB3A61AFFC030008CF3E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABDB3A71AFFC030008CF3E1 /* Build configuration list for PBXNativeTarget "GolfNation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABDB3A81AFFC030008CF3E1 /* Debug */,
+				CABDB3A91AFFC030008CF3E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABDB3AA1AFFC030008CF3E1 /* Build configuration list for PBXNativeTarget "GolfNationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABDB3AB1AFFC030008CF3E1 /* Debug */,
+				CABDB3AC1AFFC030008CF3E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CABDB37C1AFFC030008CF3E1 /* Project object */;
+}

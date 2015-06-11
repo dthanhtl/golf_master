@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GNRegisterViewController">
+            <connections>
+                <outlet property="btnRegister" destination="ui9-eu-hsg" id="SGS-U3-9fg"/>
+                <outlet property="tfEmail" destination="v4t-oW-bqA" id="xEy-18-8wu"/>
+                <outlet property="tfPassword" destination="OQg-yT-88C" id="ZII-Ve-Udj"/>
+                <outlet property="topSpacing" destination="cMQ-d5-SWq" id="XD4-5U-zsg"/>
+                <outlet property="view" destination="VDq-bb-5vG" id="fpV-E6-jVT"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="VDq-bb-5vG">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainbackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="tM5-gv-nFa">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="39X-aO-PqI" userLabel="close">
+                    <rect key="frame" x="20" y="30" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="LyD-GH-opi"/>
+                        <constraint firstAttribute="width" constant="24" id="do1-3X-vXR"/>
+                    </constraints>
+                    <state key="normal" image="btn_close.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="backTapped:" destination="-1" eventType="touchUpInside" id="uel-wK-ISi"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Top_banner.png" translatesAutoresizingMaskIntoConstraints="NO" id="jJR-bW-oq5">
+                    <rect key="frame" x="25" y="80" width="270" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="7mM-lO-t1C"/>
+                        <constraint firstAttribute="width" constant="270" id="kGG-yC-7Rj"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CREATE AN ACCOUNT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Tv-4w-fWA">
+                    <rect key="frame" x="64" y="152" width="193" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="Opv-Ju-uEz"/>
+                        <constraint firstAttribute="width" constant="193" id="snZ-T2-TIe"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="22"/>
+                    <color key="textColor" red="0.13725490200000001" green="0.80000000000000004" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v4t-oW-bqA" userLabel="email">
+                    <rect key="frame" x="25" y="203" width="270" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="270" id="O2M-6D-amV"/>
+                        <constraint firstAttribute="height" constant="40" id="tCg-3E-poL"/>
+                    </constraints>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OQg-yT-88C" userLabel="password">
+                    <rect key="frame" x="25" y="253" width="270" height="40"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ui9-eu-hsg">
+                    <rect key="frame" x="25" y="323" width="270" height="40"/>
+                    <color key="backgroundColor" red="0.13725490200000001" green="0.80000000000000004" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="MoR-CM-LcN"/>
+                        <constraint firstAttribute="width" constant="270" id="l84-Zv-aag"/>
+                    </constraints>
+                    <state key="normal" title="Register Now!">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="tM5-gv-nFa" firstAttribute="centerX" secondItem="jJR-bW-oq5" secondAttribute="centerX" id="30U-4i-fet"/>
+                <constraint firstAttribute="centerY" secondItem="tM5-gv-nFa" secondAttribute="centerY" id="3Q7-yS-36D"/>
+                <constraint firstItem="v4t-oW-bqA" firstAttribute="centerX" secondItem="OQg-yT-88C" secondAttribute="centerX" id="3TX-Po-v7l"/>
+                <constraint firstItem="tM5-gv-nFa" firstAttribute="top" secondItem="VDq-bb-5vG" secondAttribute="top" id="5wd-Ak-7w9"/>
+                <constraint firstItem="4Tv-4w-fWA" firstAttribute="centerX" secondItem="v4t-oW-bqA" secondAttribute="centerX" constant="0.5" id="6Jy-ej-DOf"/>
+                <constraint firstItem="39X-aO-PqI" firstAttribute="top" secondItem="VDq-bb-5vG" secondAttribute="top" constant="30" id="CP7-3D-xDi"/>
+                <constraint firstItem="OQg-yT-88C" firstAttribute="top" secondItem="v4t-oW-bqA" secondAttribute="bottom" constant="10" id="Nqn-Fh-VKZ"/>
+                <constraint firstAttribute="centerX" secondItem="tM5-gv-nFa" secondAttribute="centerX" id="Rkp-cR-ic1"/>
+                <constraint firstItem="tM5-gv-nFa" firstAttribute="leading" secondItem="VDq-bb-5vG" secondAttribute="leading" id="T2N-M4-mN2"/>
+                <constraint firstItem="OQg-yT-88C" firstAttribute="centerX" secondItem="ui9-eu-hsg" secondAttribute="centerX" id="UL2-kR-K8w"/>
+                <constraint firstItem="39X-aO-PqI" firstAttribute="leading" secondItem="VDq-bb-5vG" secondAttribute="leading" constant="20" id="Xl7-Ue-zfD"/>
+                <constraint firstItem="v4t-oW-bqA" firstAttribute="height" secondItem="OQg-yT-88C" secondAttribute="height" id="adp-Lj-FO7"/>
+                <constraint firstItem="v4t-oW-bqA" firstAttribute="top" secondItem="4Tv-4w-fWA" secondAttribute="bottom" constant="30" id="c2K-bn-l8Q"/>
+                <constraint firstItem="jJR-bW-oq5" firstAttribute="top" secondItem="VDq-bb-5vG" secondAttribute="top" constant="80" id="cMQ-d5-SWq"/>
+                <constraint firstItem="4Tv-4w-fWA" firstAttribute="top" secondItem="jJR-bW-oq5" secondAttribute="bottom" constant="30" id="hRa-yc-rdZ"/>
+                <constraint firstItem="ui9-eu-hsg" firstAttribute="top" secondItem="OQg-yT-88C" secondAttribute="bottom" constant="30" id="hfo-cf-dtd"/>
+                <constraint firstItem="4Tv-4w-fWA" firstAttribute="centerX" secondItem="jJR-bW-oq5" secondAttribute="centerX" constant="0.5" id="miZ-0d-mMc"/>
+                <constraint firstItem="v4t-oW-bqA" firstAttribute="width" secondItem="OQg-yT-88C" secondAttribute="width" id="wIK-MJ-ruS"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="1245" y="653"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Top_banner.png" width="1046" height="106"/>
+        <image name="btn_close.png" width="94" height="94"/>
+        <image name="mainbackground.png" width="640" height="1138"/>
+    </resources>
+</document>
